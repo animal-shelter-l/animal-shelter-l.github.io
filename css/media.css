@@ -1,0 +1,99 @@
+@media screen and (max-width: 1200px) {
+  .max-width {
+    max-width: 991px; }
+  .card-friend {
+    max-width: 33%; } }
+
+@media screen and (max-width: 1040px) {
+  .max-width {
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+@media screen and (max-width: 950px) {
+  .header__block-burger {
+    display: block; }
+  .header__nav {
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: flex;
+    align-items: center; }
+  .header__ul {
+    background-color: #fff;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    z-index: 100;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    display: none;
+    transition: 0.5s all; }
+  .header__li:not(:first-child) {
+    margin-left: 0px; }
+  .header__li:not(:first-child) {
+    margin-top: 20px; } }
+
+@media screen and (max-width: 900px) {
+  .friends-page__container-cards {
+    margin-left: -15px;
+    margin-right: -15px; }
+  .card-friend {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+@media screen and (max-width: 670px) {
+  .gui__block-logo {
+    width: 80px; }
+  .gui__container-logo-name-company {
+    font-size: 15px; } }
+
+@media screen and (max-width: 585px) {
+  .header__container {
+    flex-direction: column; }
+  .bg-content {
+    display: none; }
+  .header__ul {
+    left: -37px; }
+  .home-page__container-video {
+    margin-top: 100px; }
+  .friends-page {
+    margin-top: 100px; }
+  .home-page__title-tagline {
+    font-size: 27px; }
+  .card-friend {
+    width: 70%;
+    max-width: 70%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (max-width: 480px) {
+  .header__ul {
+    left: -62px; }
+  .gui__default-button {
+    min-height: 50px;
+    padding: 20px 20px; } }
+
+@media screen and (max-width: 420px) {
+  .home-page__title-tagline {
+    font-size: 20px;
+    line-height: 39px; }
+  .max-width {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .gui__container-logo {
+    flex-direction: column; }
+  .header__ul {
+    left: -62px; }
+  .gui__block-phone {
+    margin-top: 20px; }
+  .gui__default-text {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=media.css.map */
